@@ -40,13 +40,13 @@ puppeteerExtra.use(stealthPlugin());
   // console.log(`my name is ${abc}`);
   // await page.type('[name="to"]',to);
   //Body 
-  await page.type('input[name="subjectbox"]',  "Need Referral For SDE Intern",{delay:60});
+  await page.type('input[name="subjectbox"]',  "Need Referral For SDE Intern",{delay:30});
   await page.type('.Am.Al.editable.LW-avf.tS-tW', ` I am Vivek Gupta , a third year student pursuing B.tech from Narula Institute of Technology and Currenty looking for internship roles , My key skills are - Strong Problem Solving, C, C++, Java OOPs, DBMS.
   
-I have completed 200+ questions on leetcode.It will be great If you can refer me for this role 
+I have completed 300+ questions on leetcode.It will be great If you can refer me for this role 
 Job id - ${jobId}
 Thank You
-Resume - ${linkToResume}`,{delay:60});
+Resume - ${linkToResume}`,{delay:30});
 
 //Resume Attach
 const [fileChooser] = await Promise.all([
@@ -78,3 +78,39 @@ async function waitandclick(selector,page){
     await page.click(selector);
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
