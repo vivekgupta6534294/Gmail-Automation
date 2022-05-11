@@ -134,4 +134,4 @@ async function waitandclick(selector,page){
 
 
 
-let password="Lakhan@947";
+let password="";
